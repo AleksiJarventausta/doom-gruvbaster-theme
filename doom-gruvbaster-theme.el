@@ -1,3 +1,4 @@
+;;; doom-gruvbaster-theme.el --- Minimal dark theme with pastel 'retro groove' colors. -*- lexical-binding: t; no-byte-compile: t -*-
 ;; This file is not part of GNU Emacs.
 
 (require 'doom-themes)
@@ -277,7 +278,7 @@
   ;;;; Base theme variable overrides
   ;; ()
   )
-;;;;;###autoload
+;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
   (add-to-list 'custom-theme-load-path (file-name-directory load-file-name)))
 
